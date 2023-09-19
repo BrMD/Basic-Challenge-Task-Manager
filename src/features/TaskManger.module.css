@@ -20,3 +20,8 @@
   color: #ae00ff;
   margin: 0.3em 1em 1em 1em;
 }
+@media screen and (max-width: 960px) {
+  .containerTaskManager {
+    width: 100%;
+  }
+}

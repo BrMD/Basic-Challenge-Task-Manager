@@ -48,3 +48,18 @@
 .divInput input:focus {
   outline: none;
 }
+@media screen and (max-width: 960px) {
+  .container {
+    height: fit-content;
+    width: fit-content;
+  }
+  .buttonTask {
+    flex-wrap: wrap;
+  }
+  .nameTask {
+    font-size: 17px;
+  }
+  .completionTask {
+    font-size: 17px;
+  }
+}
