@@ -1,0 +1,27 @@
+.button {
+  border-radius: 5px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  background-color: inherit;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+  margin: 0 8px 0 8px;
+  transition: all 0.5s;
+}
+.deleteButton:hover {
+  background-color: #f83d3d;
+}
+.completeButton:hover {
+  background-color: #338822;
+}
+.createButton:hover {
+  background-color: #26f81f;
+}
+.completeButtonActive {
+  background-color: #338822;
+}
+.editTask:hover {
+  background-color: #9da006;
+}

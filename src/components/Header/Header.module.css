@@ -1,0 +1,51 @@
+.containerHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 2em;
+  margin: 1em 0 1em 0;
+  border-bottom: 1px solid #ae00ff;
+}
+.createButton {
+  width: 30%;
+  margin-left: 1em;
+}
+.createButton button {
+  margin: 0 0 2px 0;
+}
+.formCreateModal {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  flex-direction: column;
+}
+.formCreateModal h3 {
+  color: #338822;
+}
+.divInput {
+  margin: 0 1em 2em 0;
+}
+.divInput label {
+  font-size: 20px;
+}
+.divInput input {
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+}
+.divInput input:focus {
+  outline: none;
+}
+.checkboxDiv {
+  display: flex;
+  align-items: center;
+}
+.checkboxDiv label {
+  font-size: 20px;
+}
+.checkboxDiv input {
+  height: 17px;
+  width: 17px;
+  border: none;
+}

@@ -1,0 +1,22 @@
+.containerTaskManager {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  border: 1px solid #ae00ff;
+  margin: 2em 0 2em 0;
+  border-radius: 15px;
+  height: 100%;
+  font-family: "Inclusive Sans", sans-serif;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: 500;
+}
+
+.divNoItemsFound {
+  font-size: 30px;
+  color: #ae00ff;
+  margin: 0.3em 1em 1em 1em;
+}
